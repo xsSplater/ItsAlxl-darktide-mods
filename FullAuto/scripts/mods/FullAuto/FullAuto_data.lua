@@ -22,6 +22,11 @@ return {
 				default_value = true,
 			},
 			{
+				setting_id    = "remember_per_wep",
+				type          = "checkbox",
+				default_value = true,
+			},
+			{
 				setting_id      = "pressed_autoshoot",
 				type            = "keybind",
 				default_value   = {},
@@ -48,6 +53,13 @@ return {
 				setting_id    = "chargeup_autofire",
 				type          = "checkbox",
 				default_value = true,
+			},
+			{
+				setting_id      = "chargeup_autofire_amt",
+				type            = "numeric",
+				default_value   = 100,
+				range           = { 0, 100 },
+				decimals_number = 0,
 			},
 		}
 	}

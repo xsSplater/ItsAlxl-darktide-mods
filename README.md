@@ -20,10 +20,15 @@ Anonymize player names.
 
 Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/117).
 
-## BetterMelk aka Better Melk
-Automatically accept new contracts and collect the weekly completion bonus.
+## BetterMelk aka Character Screen Contracts
+Display contract progress on the character select screen.
 
 Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/71).
+
+## BioPage
+Adds a bio page that lists out the choices you made during character creation. Also works when inspecting other players.
+
+Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/341).
 
 ## BornReady
 Automatically readies up when joining a lobby.
@@ -80,10 +85,20 @@ Adds keybinds to spam light melee attacks for you.
 
 Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/88).
 
+## LoadoutNames
+Adds the ability to name your loadouts. 
+
+Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/286).
+
 ## LookAround
 Provides the ability to freelook.
 
 Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/115).
+
+## PanicStimm
+Switch to your Stimm and inject with one button press. Also dictate what you equip after injection.
+
+Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/266).
 
 ## PenanceDetails
 Penances provide more details about your current progress.
@@ -109,6 +124,11 @@ Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/66).
 Replaces X-Box BYXA button prompts with Playstation O▲■X button prompts.
 
 Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/153).
+
+## RecolorStimms
+Recolor stimms and their cases, and swap the syringe stickers.
+
+Get it on [Nexus](https://www.nexusmods.com/warhammer40kdarktide/mods/267).
 
 ## ReorderChars aka Reorder Characters
 Allows you to reorder your characters on the character select screen.

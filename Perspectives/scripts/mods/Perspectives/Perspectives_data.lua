@@ -6,6 +6,14 @@ local autoswitch_options = {
 	{ text = "autoswitch_to_third", value = 2 },
 }
 
+local xhair_options = {}
+for _, type in ipairs(mod._xhair_types) do
+	table.insert(xhair_options, {
+		text = "xhair_" .. type,
+		value = type,
+	})
+end
+
 return {
 	name = "Perspectives",
 	description = mod:localize("mod_description"),
@@ -107,6 +115,12 @@ return {
 						default_value = true,
 					},
 					{
+						setting_id    = "xhair_fallback",
+						type          = "dropdown",
+						default_value = "assault",
+						options       = xhair_options,
+					},
+					{
 						setting_id    = "use_lookaround_node",
 						type          = "checkbox",
 						default_value = true,
@@ -147,6 +161,20 @@ return {
 						range           = { -1.0, 1.0 },
 						decimals_number = 2,
 					},
+					{
+						setting_id      = "custom_distance_ogryn",
+						type            = "numeric",
+						default_value   = 0.0,
+						range           = { -1.0, 1.0 },
+						decimals_number = 2,
+					},
+					{
+						setting_id      = "custom_offset_ogryn",
+						type            = "numeric",
+						default_value   = 0.0,
+						range           = { -1.0, 1.0 },
+						decimals_number = 2,
+					},
 				}
 			},
 			{
@@ -154,10 +182,16 @@ return {
 				type        = "group",
 				sub_widgets = {
 					{
+						setting_id    = "autoswitch_slot_device",
+						type          = "dropdown",
+						default_value = 1,
+						options       = autoswitch_options,
+					},
+					{
 						setting_id    = "autoswitch_spectate",
 						type          = "dropdown",
-						default_value = 0,
-						options       = autoswitch_options,
+						default_value = 2,
+						options       = table.clone(autoswitch_options),
 					},
 					{
 						setting_id    = "autoswitch_slot_primary",
@@ -179,6 +213,12 @@ return {
 					},
 					{
 						setting_id    = "autoswitch_slot_pocketable",
+						type          = "dropdown",
+						default_value = 0,
+						options       = table.clone(autoswitch_options),
+					},
+					{
+						setting_id    = "autoswitch_slot_pocketable_small",
 						type          = "dropdown",
 						default_value = 0,
 						options       = table.clone(autoswitch_options),
